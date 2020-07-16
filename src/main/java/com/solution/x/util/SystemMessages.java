@@ -55,8 +55,28 @@ public enum SystemMessages
 	PROMOTION_UPDATE_SUCCESS( "1602", "Promotion successfully updated" ),
 	PROMOTION_UPDATE_FAILED( "1603", "Promotion update failed" ),
 	PROMOTION_DELETE_SUCCESS( "1604", "Promotion successfully deleted" ),
-	PROMOTION_DELETE_FAILED( "1605", "Promotion delete failed" );
+	PROMOTION_DELETE_FAILED( "1605", "Promotion delete failed" ),
 
+	MENU_CREATE_SUCCESS( "1700", "Menu successfully saved" ),
+	MENU_CREATE_FAILED( "1701", "Menu saving failed" ),
+	MENU_UPDATE_SUCCESS( "1702", "Menu successfully updated" ),
+	MENU_UPDATE_FAILED( "1703", "Menu update failed" ),
+	MENU_DELETE_SUCCESS( "1704", "Menu successfully deleted" ),
+	MENU_DELETE_FAILED( "1705", "Menu delete failed" ),
+
+	CATEGORY_CREATE_SUCCESS( "1800", "Category successfully saved" ),
+	CATEGORY_CREATE_FAILED( "1801", "Category saving failed" ),
+	CATEGORY_UPDATE_SUCCESS( "1802", "Category successfully updated" ),
+	CATEGORY_UPDATE_FAILED( "1803", "Category update failed" ),
+	CATEGORY_DELETE_SUCCESS( "1804", "Category successfully deleted" ),
+	CATEGORY_DELETE_FAILED( "1805", "Category delete failed" ),
+
+	CHOICE_CREATE_SUCCESS( "1900", "Choice successfully saved" ),
+	CHOICE_CREATE_FAILED( "1901", "Choice saving failed" ),
+	CHOICE_UPDATE_SUCCESS( "1902", "Choice successfully updated" ),
+	CHOICE_UPDATE_FAILED( "1903", "Choice update failed" ),
+	CHOICE_DELETE_SUCCESS( "1904", "Choice successfully deleted" ),
+	CHOICE_DELETE_FAILED( "1905", "Choice delete failed" );
 
 	private final String code;
 	private final String reasonPhrase;
