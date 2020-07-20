@@ -64,13 +64,6 @@ public enum SystemMessages
 	MENU_DELETE_SUCCESS( "1704", "Menu successfully deleted" ),
 	MENU_DELETE_FAILED( "1705", "Menu delete failed" ),
 
-	CATEGORY_CREATE_SUCCESS( "1800", "Category successfully saved" ),
-	CATEGORY_CREATE_FAILED( "1801", "Category saving failed" ),
-	CATEGORY_UPDATE_SUCCESS( "1802", "Category successfully updated" ),
-	CATEGORY_UPDATE_FAILED( "1803", "Category update failed" ),
-	CATEGORY_DELETE_SUCCESS( "1804", "Category successfully deleted" ),
-	CATEGORY_DELETE_FAILED( "1805", "Category delete failed" ),
-
 	CHOICE_CREATE_SUCCESS( "1900", "Choice successfully saved" ),
 	CHOICE_CREATE_FAILED( "1901", "Choice saving failed" ),
 	CHOICE_UPDATE_SUCCESS( "1902", "Choice successfully updated" ),
