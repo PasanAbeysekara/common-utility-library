@@ -70,4 +70,18 @@ public class ResponseWrapper<T>
 		this.error = error;
 	}
 
+	/**
+	 * Constructor with Error object for error response : Suitable for exceptions
+	 *
+	 * @param operation      SystemOperation
+	 * @param systemMessages SystemMessages
+	 */
+	public ResponseWrapper( SystemOperation operation, SystemMessages systemMessages )
+	{
+		this.operation = operation.toString();
+		this.status = operation.status() ? SUCCESS : FAIL;
+		this.code = systemMessages.code();
+		this.prettyMessage = systemMessages.getReasonPhrase();
+	}
+
 }
