@@ -55,8 +55,35 @@ public enum SystemMessages
 	PROMOTION_UPDATE_SUCCESS( "1602", "Promotion successfully updated" ),
 	PROMOTION_UPDATE_FAILED( "1603", "Promotion update failed" ),
 	PROMOTION_DELETE_SUCCESS( "1604", "Promotion successfully deleted" ),
-	PROMOTION_DELETE_FAILED( "1605", "Promotion delete failed" );
+	PROMOTION_DELETE_FAILED( "1605", "Promotion delete failed" ),
 
+	MENU_CREATE_SUCCESS( "1700", "Menu successfully saved" ),
+	MENU_CREATE_FAILED( "1701", "Menu saving failed" ),
+	MENU_UPDATE_SUCCESS( "1702", "Menu successfully updated" ),
+	MENU_UPDATE_FAILED( "1703", "Menu update failed" ),
+	MENU_DELETE_SUCCESS( "1704", "Menu successfully deleted" ),
+	MENU_DELETE_FAILED( "1705", "Menu delete failed" ),
+
+	PAYMENT_OPTION_CREATE_SUCCESS( "1800", "Payment Option successfully saved" ),
+	PAYMENT_OPTION_CREATE_FAILED( "1801", "Payment Option saving failed" ),
+	PAYMENT_OPTION_UPDATE_SUCCESS( "1802", "Payment Option successfully updated" ),
+	PAYMENT_OPTION_UPDATE_FAILED( "1803", "Payment Option update failed" ),
+	PAYMENT_OPTION_DELETE_SUCCESS( "1804", "Payment Option successfully deleted" ),
+	PAYMENT_OPTION_DELETE_FAILED( "1805", "Payment Option delete failed" ),
+
+	CHOICE_CREATE_SUCCESS( "1900", "Choice successfully saved" ),
+	CHOICE_CREATE_FAILED( "1901", "Choice saving failed" ),
+	CHOICE_UPDATE_SUCCESS( "1902", "Choice successfully updated" ),
+	CHOICE_UPDATE_FAILED( "1903", "Choice update failed" ),
+	CHOICE_DELETE_SUCCESS( "1904", "Choice successfully deleted" ),
+	CHOICE_DELETE_FAILED( "1905", "Choice delete failed" ),
+
+	SPECIALITY_CREATE_SUCCESS( "2000", "Speciality successfully saved" ),
+	SPECIALITY_CREATE_FAILED( "2001", "Speciality saving failed" ),
+	SPECIALITY_UPDATE_SUCCESS( "2002", "Speciality successfully updated" ),
+	SPECIALITY_UPDATE_FAILED( "2003", "Speciality update failed" ),
+	SPECIALITY_DELETE_SUCCESS( "2004", "Speciality successfully deleted" ),
+	SPECIALITY_DELETE_FAILED( "2005", "Speciality delete failed" );
 
 	private final String code;
 	private final String reasonPhrase;
