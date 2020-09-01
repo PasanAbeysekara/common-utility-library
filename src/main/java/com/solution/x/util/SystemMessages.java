@@ -83,7 +83,10 @@ public enum SystemMessages
 	SPECIALITY_UPDATE_SUCCESS( "2002", "Speciality successfully updated" ),
 	SPECIALITY_UPDATE_FAILED( "2003", "Speciality update failed" ),
 	SPECIALITY_DELETE_SUCCESS( "2004", "Speciality successfully deleted" ),
-	SPECIALITY_DELETE_FAILED( "2005", "Speciality delete failed" );
+	SPECIALITY_DELETE_FAILED( "2005", "Speciality delete failed" ),
+
+	AVAILABILITY_DATA_UPDATE_SUCCESS( "2102", "Availability Data successfully updated." ),
+	AVAILABILITY_DATA_UPDATE_FAILED( "2103", "Availability Data update failed." );
 
 	private final String code;
 	private final String reasonPhrase;
