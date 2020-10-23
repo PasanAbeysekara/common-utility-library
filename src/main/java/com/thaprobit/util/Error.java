@@ -1,4 +1,4 @@
-package com.solution.x.util;
+package com.thaprobit.util;
 
 import java.util.ArrayList;
 import java.util.List;

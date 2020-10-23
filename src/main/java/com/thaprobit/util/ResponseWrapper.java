@@ -1,6 +1,6 @@
-package com.solution.x.util;
+package com.thaprobit.util;
 
-import com.solution.x.global.SystemOperation;
+import com.thaprobit.global.SystemOperation;
 import lombok.Data;
 
 /**

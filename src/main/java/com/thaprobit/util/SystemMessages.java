@@ -1,4 +1,4 @@
-package com.solution.x.util;
+package com.thaprobit.util;
 
 /**
  * @author Tharinda Wickramaarachchi

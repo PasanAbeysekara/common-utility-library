@@ -1,4 +1,4 @@
-package com.solution.x.global;
+package com.thaprobit.global;
 
 /**
  * @author Tharinda Wickramaarachchi

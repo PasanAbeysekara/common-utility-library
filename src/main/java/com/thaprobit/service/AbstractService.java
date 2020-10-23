@@ -1,10 +1,10 @@
-package com.solution.x.service;
+package com.thaprobit.service;
 
-import com.solution.x.global.SystemOperation;
-import com.solution.x.util.Error;
-import com.solution.x.util.ErrorUtility;
-import com.solution.x.util.ResponseWrapper;
-import com.solution.x.util.SystemMessages;
+import com.thaprobit.global.SystemOperation;
+import com.thaprobit.util.Error;
+import com.thaprobit.util.ErrorUtility;
+import com.thaprobit.util.ResponseWrapper;
+import com.thaprobit.util.SystemMessages;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

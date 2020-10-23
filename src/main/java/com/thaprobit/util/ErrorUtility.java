@@ -1,4 +1,4 @@
-package com.solution.x.util;
+package com.thaprobit.util;
 
 import javax.validation.ConstraintViolation;
 import java.sql.SQLException;
