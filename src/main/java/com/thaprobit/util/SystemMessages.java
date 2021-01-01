@@ -86,7 +86,21 @@ public enum SystemMessages
 	SPECIALITY_DELETE_FAILED( "2005", "Speciality delete failed" ),
 
 	AVAILABILITY_DATA_UPDATE_SUCCESS( "2102", "Availability Data update successfully." ),
-	AVAILABILITY_DATA_UPDATE_FAILED( "2103", "Availability Data update failed." );
+	AVAILABILITY_DATA_UPDATE_FAILED( "2103", "Availability Data update failed." ),
+
+	LOCATION_BASED_CREATE_SUCCESS( "2200", "Location Based successfully saved" ),
+	LOCATION_BASED_CREATE_FAILED( "2201", "Location Based saving failed" ),
+	LOCATION_BASED_UPDATE_SUCCESS( "2202", "Location Based successfully updated" ),
+	LOCATION_BASED_UPDATE_FAILED( "2203", "Location Based update failed" ),
+	LOCATION_BASED_DELETE_SUCCESS( "2204", "Location Based successfully deleted" ),
+	LOCATION_BASED_DELETE_FAILED( "2205", "Location Based delete failed" ),
+
+	EVENT_CREATE_SUCCESS( "2300", "Event successfully saved" ),
+	EVENT_CREATE_FAILED( "2301", "Event saving failed" ),
+	EVENT_UPDATE_SUCCESS( "2302", "Event successfully updated" ),
+	EVENT_UPDATE_FAILED( "2303", "Event update failed" ),
+	EVENT_DELETE_SUCCESS( "2304", "Event successfully deleted" ),
+	EVENT_DELETE_FAILED( "2305", "Event delete failed" );
 
 	private final String code;
 	private final String reasonPhrase;
