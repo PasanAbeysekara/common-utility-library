@@ -9,4 +9,5 @@ public class URLProvider
 	public final static String SERVICE_DATA = "/data";
 	public final static String SERVICE_SEARCH = "/search";
 	public final static String SERVICE_OPERATION = "/operation";
+	public final static String SERVICE_RESERVATION = "/res";
 }

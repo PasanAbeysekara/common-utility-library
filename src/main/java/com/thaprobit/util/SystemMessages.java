@@ -100,7 +100,14 @@ public enum SystemMessages
 	EVENT_UPDATE_SUCCESS( "2302", "Event successfully updated" ),
 	EVENT_UPDATE_FAILED( "2303", "Event update failed" ),
 	EVENT_DELETE_SUCCESS( "2304", "Event successfully deleted" ),
-	EVENT_DELETE_FAILED( "2305", "Event delete failed" );
+	EVENT_DELETE_FAILED( "2305", "Event delete failed" ),
+
+	RESERVATION_CREATE_SUCCESS( "2400", "Reservation successfully saved" ),
+	RESERVATION_CREATE_FAILED( "2401", "Reservation saving failed" ),
+	RESERVATION_UPDATE_SUCCESS( "2402", "Reservation successfully updated" ),
+	RESERVATION_UPDATE_FAILED( "2403", "Reservation update failed" ),
+	RESERVATION_DELETE_SUCCESS( "2404", "Reservation successfully deleted" ),
+	RESERVATION_DELETE_FAILED( "2405", "Reservation delete failed" );
 
 	private final String code;
 	private final String reasonPhrase;
