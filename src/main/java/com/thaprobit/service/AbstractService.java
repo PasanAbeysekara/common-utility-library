@@ -16,7 +16,7 @@ public abstract class AbstractService<DAO> //TODO change name
 {
 	protected HttpHeaders addCommonHeaders( HttpHeaders responseHeaders )
 	{
-		responseHeaders.add( "Access-Control-Allow-Origin", "http://localhost:4200" );
+		//responseHeaders.add( "Access-Control-Allow-Origin", "*" );
 
 		return responseHeaders;
 	}
