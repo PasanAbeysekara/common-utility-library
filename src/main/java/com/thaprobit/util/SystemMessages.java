@@ -13,6 +13,8 @@ public enum SystemMessages
 	INVALID_DATA( "102", "Invalid data State" ),
 	SUCCESSFULLY_LOADED( "103", "Data successfully loaded" ),
 
+	SUCCESS_SEARCH( "200", "Search Success" ),
+
 	FACILITY_CREATE_SUCCESS( "1100", "Facility successfully saved" ),
 	FACILITY_CREATE_FAILED( "1101", "Facility saving failed" ),
 	FACILITY_UPDATE_SUCCESS( "1102", "Facility successfully updated" ),
