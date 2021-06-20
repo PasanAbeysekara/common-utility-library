@@ -109,7 +109,14 @@ public enum SystemMessages
 	RESERVATION_UPDATE_SUCCESS( "2402", "Reservation successfully updated" ),
 	RESERVATION_UPDATE_FAILED( "2403", "Reservation update failed" ),
 	RESERVATION_DELETE_SUCCESS( "2404", "Reservation successfully deleted" ),
-	RESERVATION_DELETE_FAILED( "2405", "Reservation delete failed" );
+	RESERVATION_DELETE_FAILED( "2405", "Reservation delete failed" ),
+
+	USER_CREATE_SUCCESS( "2500", "User successfully saved" ),
+	USER_CREATE_FAILED( "2501", "User saving failed" ),
+	USER_UPDATE_SUCCESS( "2502", "User successfully updated" ),
+	USER_UPDATE_FAILED( "2503", "User update failed" ),
+	USER_DELETE_SUCCESS( "2504", "User successfully deleted" ),
+	USER_DELETE_FAILED( "2505", "User delete failed" );
 
 	private final String code;
 	private final String reasonPhrase;
