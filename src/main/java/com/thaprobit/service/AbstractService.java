@@ -35,7 +35,7 @@ public abstract class AbstractService<DAO> //TODO change name
 
 	protected ResponseEntity<ResponseWrapper<DAO>> buildExceptionErrorResponse( SystemOperation operation, SystemMessages message, Exception e )
 	{
-		Error error = ErrorUtility.exceptionErrorMapper( message, e, true );
+		Error error = ErrorUtility.exceptionErrorMapper( message, e, false );
 
 		return ResponseEntity.status( HttpStatus.INTERNAL_SERVER_ERROR )
 				.headers( new HttpHeaders() )
