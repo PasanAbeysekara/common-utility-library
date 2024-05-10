@@ -40,6 +40,14 @@
 <!--        </snapshotRepository>-->
 <!--    </distributionManagement>-->
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/PasanAbeysekara/common-utility-library</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
